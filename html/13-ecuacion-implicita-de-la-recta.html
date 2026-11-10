@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvms1f07-i2vskpd2g">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.3. Ecuación implícita de la recta | Espacio afín y euclídeo</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Curso 2º - Enseñanza Bachillerato
+Nombre asignatura/materia: Matemáticas II">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvms1f07-i2vskpd2g" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Espacio afín y euclídeo: Ecuaciones de rectas y planos. Posiciones relativas</a>
+</li>
+<li class="current-page-parent"> <a href="../html/1-la-recta-en-el-espacio.html" class="daddy">1. La recta en el espacio</a>
+<ul class="other-section">
+<li> <a href="../html/11-ecuacion-vectorial-de-la-recta.html" class="no-ch">1.1. Ecuación vectorial de la recta</a>
+</li>
+<li> <a href="../html/12-ecuacion-parametrica-y-continua-de-la-recta.html" class="no-ch">1.2. Ecuación paramétrica y continua de la recta</a>
+</li>
+<li class="active"> <a href="../html/13-ecuacion-implicita-de-la-recta.html" class="active no-ch">1.3. Ecuación implícita de la recta</a>
+</li>
+<li> <a href="../html/14-posiciones-relativas-de-rectas-en-el-espacio.html" class="no-ch">1.4. Posiciones relativas de rectas en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/2-el-plano-en-el-espacio.html" class="daddy">2. El plano en el espacio</a>
+<ul class="other-section">
+<li> <a href="../html/21-ecuacion-vectorial-y-parametrica-del-plano.html" class="no-ch">2.1.  Ecuación vectorial y paramétrica del plano</a>
+</li>
+<li> <a href="../html/22-ecuacion-implicita-del-plano.html" class="no-ch">2.2. Ecuación implícita del plano</a>
+</li>
+<li> <a href="../html/23-posiciones-relativas-de-planos-en-el-espacio.html" class="no-ch">2.3. Posiciones relativas de planos en el espacio</a>
+</li>
+<li> <a href="../html/24-posiciones-relativas-de-tres-planos-en-el-espac.html" class="no-ch">2.4. Posiciones relativas de tres planos en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-posiciones-relativas-de-rectas-y-planos-en-el-es.html" class="no-ch">3. Posiciones relativas de rectas y planos en el espacio</a>
+</li>
+<li> <a href="../html/ejercicios.html" class="no-ch">Ejercicios</a>
+</li>
+<li> <a href="../html/calculadora.html" class="no-ch">Calculadora</a>
+</li>
+<li> <a href="../html/resumen.html" class="no-ch">Resumen</a>
+</li>
+</ul>
+</nav><main id="page-mvms1f07-i2vskpd2g" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Espacio afín y euclídeo</p>
+<p class="package-subtitle">Ecuaciones de rectas y planos. Posiciones relativas</p></div>
+<div class="page-header"><h1 class="page-title">1.3. Ecuación implícita de la recta</h1></div>
+</header><div id="page-content-page-mvms1f07-i2vskpd2g" class="page-content">
+<article id="block-mvms1f0a-j2ux7dxks" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_definicion.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ecuación implícita de la recta</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0a-p8p2w6fd0" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0a-p8p2w6fd0&quot;}">
+<div class="exe-text-template">
+    <p>Si de una recta tenemos un punto \(P=(p_1,p_2,p_3)\) y un vector director \(\vec{v}=(v_1,v_2,v_3)\) entonces conocemos la ecuación continua de la recta</p>
+<p style="text-align: center;">\[r \equiv \dfrac{x-p_1}{v_1} = \dfrac{y-p_2}{v_2} = \dfrac{z-p_3}{v_3}\]</p>
+<p>A partir de esta ecuación, dado que tenemos dos igualdades, podemos expresar la recta de la siguiente forma:</p>
+<p style="text-align: center;">\[r \equiv \begin{cases} \dfrac{x-p_1}{v_1} = \dfrac{y-p_2}{v_2} \\[2ex] \dfrac{x-p_1}{v_1} = \dfrac{z-p_3}{v_3} \end{cases} \implies r \equiv \begin{cases} v_2(x-p_1)=v_1(y-p_2) \\ v_3(x-p_1)=v_1(z-p_3) \end{cases} \implies r \equiv \begin{cases} v_2x-v_1y=v_2p_1-v_1p_2 \\ v_3x-v_1z=v_3p_1-v_1p_3 \end{cases}\]</p>
+<p>Por lo que la ecuación de la recta la podemos expresar de la forma</p>
+<p style="text-align: center;">\[\implies r \equiv \begin{cases} Ax+By=C \\ Dx+Ez=F \end{cases}\]</p>
+<p>donde \(A, B, C, D, E\) y \(F\) son números. Pero sabemos que en un sistema de ecuaciones podemos sustituir cada fila por una combinación lineal de las que componen el sistema, de esta forma, la ecuación de una recta va a poder venir dada por la forma:</p>
+<h5 style="text-align: center;"><span style="color: #007632;">\[r \equiv \begin{cases} Ax+By+Cz+D=0 \\ Kx+Ly+Mz+H=0 \end{cases}\]</span></h5>
+<p>donde \(A, B, C, D, K, L, M\) y \(H\) son números.</p>
+<p>La expresión anterior recibe el nombre de <strong><span style="color: #007632;">ecuación implícita de la recta</span>.</strong></p>
+</div>
+</div>
+</div>
+</article><article id="block-mvms1f0b-5qblfmdh5" class="box caja-roja">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/bidio.gif" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Vídeo</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0b-l4xfb19k9" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0b-l4xfb19k9&quot;}">
+<div class="exe-text-template">
+    <p>Aquí puedes ver un ejemplo de cómo hallar todas las formas en que puede expresarse una recta en el espacio. <a href="https://youtu.be/zTkSL85xhic?si=NVq2BUSeCWpuOZiu" title=""><img src="../content/resources/yutube.png" width="50" height="51" alt="" /></a></p>
+</div>
+</div>
+</div>
+</article><article id="block-mvnsgspo-yvj5pnbue" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1792930397531-zoufr1oel" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1792930397531-zoufr1oel&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><table style="width: 300px;" border="1" align="right">
+<tbody>
+<tr style="border: 1px solid #ffffff;">
+<td><img src="../content/resources/edificio.jpg" height="225" width="300" style="margin-left: 10px; margin-right: 10px;" /></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><br /></p>
+<p style="text-align: justify;">Un grupo de obreros debe restaurar las dos torres con las que cuenta la casa que aparece en la imagen de la derecha. Han comenzado trabajando por la torre que está más a a la derecha que se encuentra en el punto \(P=(2,-3,1)\) según los cálculos del arquitecto. Ahora deben trasladar todo el material a la otra torre cuyo punto más alto se encuentra en \(Q=(-7,3,2)\). Si lanzan una cuerda desde el primer punto al segundo, calcula la recta sobre la que se encuentra esa cuerda. Calcula la ecuación implícita de esa recta.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p>Para calcular la ecuación de una recta necesitamos un punto, en nuestro caso vamos a tomar el punto \(P=(2,-3,1)\) y un vector director, en nuestro caso \(\overrightarrow{PQ}=(-9,6,1)\). Así, la ecuación continua de la recta que nos piden es:</p>
+<p style="text-align: center;">\[r \equiv \dfrac{x-2}{-9} = \dfrac{y+3}{6} = \dfrac{z-1}{1}\]</p>
+<p>Por tanto: \[r \equiv \begin{cases} \dfrac{x-2}{-9} = \dfrac{y+3}{6} \\[2ex] \dfrac{x-2}{-9} = \dfrac{z-1}{1} \end{cases} \implies r \equiv \begin{cases} 6x-12 = -9y-27 \\ x-2 = -9z+9 \end{cases} \implies r \equiv \begin{cases} 6x+9y = -15 \\ x+9z = 11 \end{cases}\]</p>
+<p>Esta ya sería una ecuación implícita de la recta.</p>
+<p>Si sustituimos la primera ecuación por la suma de las dos y sustituimos la segunda ecuación por la que resulta de restarle la segunda ecuación a la primera:</p>
+<p style="text-align: center;">\[\implies r \equiv \begin{cases} 7x+9y+9z = -4 \\ 5x+9y-9z = -26 \end{cases}\]</p>
+<p>sería otra ecuación implícita de la recta.</p></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvnsoehs-05y348kxe" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1792930752352-egqapg6vm" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1792930752352-egqapg6vm&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Dada la ecuación de la recta \(r \equiv \begin{cases} 6x+y=-2 \\ x+2y+3z=8 \end{cases}\)</p>
+<p>calcula un vector director de la misma.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p>Para obtener un vector director vamos a calcular dos puntos de la recta y el vector director será el vector que une esos dos puntos.</p>
+<p>Así, tenemos que:</p>
+<p style="text-align: center;">\[r \equiv \begin{cases} 6x+y=-2 \Rightarrow y=-2-6x \\ x+2y+3z=8 \Rightarrow z=\dfrac{8-2y-x}{3} \end{cases}\]</p>
+<p>sustituyendo en la segunda ecuación tenemos que</p>
+<p style="text-align: center;">\[z = \dfrac{8-2y-x}{3} = \dfrac{8-2(-2-6x)-x}{3} = \dfrac{8+11x+4}{3} = \dfrac{11x+12}{3}\]</p>
+<p>Si \(x=0\) entonces \(y=-2-6\cdot 0=-2\) y también \(z=\dfrac{11\cdot 0+12}{3}=4\) luego el primer punto \(P=(0,-2,4)\)</p>
+<p>Si \(x=3\) entonces \(y=-2-6\cdot 3=-20\) y también \(z=\dfrac{11\cdot 3+12}{3}=15\) luego el segundo punto es \(Q=(3,-20,15)\)</p>
+<p>Por tanto, un vector director sería \(\overrightarrow{PQ}=(3,-18,11)\)</p></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvnsuolu-cedl9mvd2" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1792931045393-5ooutlv5q" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1792931045393-5ooutlv5q&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p style="text-align: justify;">La Tierra tiene una propiedad bastante curiosa. Si dejamos caer un objeto sobre la Tierra, sigue una línea recta que se dirige al centro de la Tierra. Esto es debido a la fuerza de atracción gravitatoria.</p>
+<p><img src="../content/resources/image-7f6f0c31.jpg" width="75%" alt="" style="display: block; margin: 10px auto 10px auto;" /></p>
+<p style="text-align: justify;">Hemos realizado un experimento científico y hemos dejado caer un objeto desde una determinada altura y ha seguido el recorrido marcado por la recta \(r\). Hemos dejado caer otro objeto y ha seguido el recorrido marcado por la recta \(s\). </p>
+<p style="text-align: center;">\[r \equiv \begin{cases} x-y=-1000 \\ x+z=4000 \end{cases}\]</p>
+<p style="text-align: center;">\[s \equiv \begin{cases} x+y+z=6000 \\ x-z=-2000 \end{cases}\]</p>
+<p style="text-align: justify;">Calcula las coordenadas del centro de la Tierra.</p>
+<p style="text-align: center;"><br /></p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p style="text-align: justify;">El centro de la Tierra se debe encontrar en el punto de corte a ambas rectas, que se deben cortar en un punto si el experimento lo hemos realizado bien.</p>
+<p style="text-align: justify;">De la primera ecuación tenemos que:</p>
+<p style="text-align: justify;">\[r \equiv \begin{cases} x-y=-1000 \implies y=x+1000 \\ x+z=4000 \implies z=-x+4000 \end{cases}\]</p>
+<p style="text-align: justify;">Si sustituimos en la recta \(s\)</p>
+<p style="text-align: justify;">\[s \equiv \begin{cases} x+y+z=6000 \implies x+x+1000-x+4000=6000 \\ x-z=-2000 \end{cases}\]</p>
+<p style="text-align: justify;">Luego tenemos que \(x=1000\) Si sustituimos en las ecuaciones de más arriba:</p>
+<p style="text-align: center;">\[\begin{cases} y=x+1000=1000+1000=2000 \\ z=-x+4000=-1000+4000=3000 \end{cases} \quad \text{Luego el posible punto sería } C=(1000,2000,3000)\]</p>
+<p>Pero todavía nos queda comprobar si este punto verifica la segunda ecuación de la recta \(s\)</p>
+<p>\(x-z=-2000 \implies 1000-3000=-2000\) que la verifica, por tanto, las coordenadas del centro de la Tierra son:</p>
+<p style="text-align: center;">\[C=(1000,2000,3000)\]</p></div></div>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/12-ecuacion-parametrica-y-continua-de-la-recta.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/14-posiciones-relativas-de-rectas-en-el-espacio.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

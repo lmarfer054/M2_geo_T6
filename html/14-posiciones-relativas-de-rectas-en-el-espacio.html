@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvms1f07-kw0g2bd3n">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.4. Posiciones relativas de rectas en el espacio | Espacio afín y euclídeo</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Curso 2º - Enseñanza Bachillerato
+Nombre asignatura/materia: Matemáticas II">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../libs/exe_effects/exe_effects.js"> </script>
+<link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvms1f07-kw0g2bd3n" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Espacio afín y euclídeo: Ecuaciones de rectas y planos. Posiciones relativas</a>
+</li>
+<li class="current-page-parent"> <a href="../html/1-la-recta-en-el-espacio.html" class="daddy">1. La recta en el espacio</a>
+<ul class="other-section">
+<li> <a href="../html/11-ecuacion-vectorial-de-la-recta.html" class="no-ch">1.1. Ecuación vectorial de la recta</a>
+</li>
+<li> <a href="../html/12-ecuacion-parametrica-y-continua-de-la-recta.html" class="no-ch">1.2. Ecuación paramétrica y continua de la recta</a>
+</li>
+<li> <a href="../html/13-ecuacion-implicita-de-la-recta.html" class="no-ch">1.3. Ecuación implícita de la recta</a>
+</li>
+<li class="active"> <a href="../html/14-posiciones-relativas-de-rectas-en-el-espacio.html" class="active no-ch">1.4. Posiciones relativas de rectas en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/2-el-plano-en-el-espacio.html" class="daddy">2. El plano en el espacio</a>
+<ul class="other-section">
+<li> <a href="../html/21-ecuacion-vectorial-y-parametrica-del-plano.html" class="no-ch">2.1.  Ecuación vectorial y paramétrica del plano</a>
+</li>
+<li> <a href="../html/22-ecuacion-implicita-del-plano.html" class="no-ch">2.2. Ecuación implícita del plano</a>
+</li>
+<li> <a href="../html/23-posiciones-relativas-de-planos-en-el-espacio.html" class="no-ch">2.3. Posiciones relativas de planos en el espacio</a>
+</li>
+<li> <a href="../html/24-posiciones-relativas-de-tres-planos-en-el-espac.html" class="no-ch">2.4. Posiciones relativas de tres planos en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-posiciones-relativas-de-rectas-y-planos-en-el-es.html" class="no-ch">3. Posiciones relativas de rectas y planos en el espacio</a>
+</li>
+<li> <a href="../html/ejercicios.html" class="no-ch">Ejercicios</a>
+</li>
+<li> <a href="../html/calculadora.html" class="no-ch">Calculadora</a>
+</li>
+<li> <a href="../html/resumen.html" class="no-ch">Resumen</a>
+</li>
+</ul>
+</nav><main id="page-mvms1f07-kw0g2bd3n" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Espacio afín y euclídeo</p>
+<p class="package-subtitle">Ecuaciones de rectas y planos. Posiciones relativas</p></div>
+<div class="page-header"><h1 class="page-title">1.4. Posiciones relativas de rectas en el espacio</h1></div>
+</header><div id="page-content-page-mvms1f07-kw0g2bd3n" class="page-content">
+<article id="block-mvms1f0b-lglpbxzao" class="box no-header sin-titulo">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0b-3qjw7xvkd" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0b-3qjw7xvkd&quot;}">
+<div class="exe-text-template">
+    <p> <img src="../content/resources/rectas.jpg" alt="Rectas en varias direcciones" width="35%" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>En el espacio, después de los puntos, los elementos más simples que existen son las rectas. Así que vamos a empezar por estudiar la situación en que pueden estar.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mvntt56i-gf1p73ylu" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_definicion.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Posiciones relativas</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1792932653178-do213o3yw" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1792932653178-do213o3yw&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; user-select: none;"><!-- Encabezado del bloque -->
+<div style="background-color: #f4f9f4; border-left: 5px solid #007e3a; padding: 15px; margin-bottom: 20px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+<p style="margin: 0; font-size: 1.1em;">Dos rectas en el espacio pueden tener <strong>cuatro posiciones relativas</strong> dependiendo de si tienen la misma dirección y de si comparten puntos:</p>
+</div>
+<!-- Contenedor Grid adaptable -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;"><!-- BLOQUE 1: Distinta Dirección -->
+<div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<div style="background-color: #007e3a; color: white; padding: 12px 15px; font-weight: bold; font-size: 1.1em; text-align: center;">Si tienen DISTINTA dirección</div>
+<div style="padding: 20px; background-color: #ffffff;"><!-- Cruzarse -->
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 25px;"><svg viewbox="0 0 100 100" width="70" height="70" style="flex-shrink: 0; background: #fafafa; border-radius: 8px; border: 1px solid #eee;"> <!-- Recta inferior (cruzándose en 3D) --> <line x1="30" y1="85" x2="48" y2="43" stroke="#82b93c" stroke-width="4.5" stroke-linecap="round"></line> <line x1="53" y1="31" x2="65" y2="10" stroke="#82b93c" stroke-width="4.5" stroke-linecap="round"></line> <!-- Recta superior --> <line x1="15" y1="25" x2="85" y2="45" stroke="#007e3a" stroke-width="4.5" stroke-linecap="round"></line> </svg>
+<div><strong style="color: #007e3a; font-size: 1.1em;">Cruzarse:</strong><br />Cuando no tienen ningún punto en común (están en distintos planos).</div>
+</div>
+<!-- Cortarse -->
+<div style="display: flex; align-items: center; gap: 15px;"><svg viewbox="0 0 100 100" width="70" height="70" style="flex-shrink: 0; background: #fafafa; border-radius: 8px; border: 1px solid #eee;"> <line x1="20" y1="20" x2="80" y2="80" stroke="#007e3a" stroke-width="4.5" stroke-linecap="round"></line> <line x1="20" y1="80" x2="80" y2="20" stroke="#82b93c" stroke-width="4.5" stroke-linecap="round"></line> <!-- Punto de intersección --> <circle cx="50" cy="50" r="5" fill="#333333" stroke="#ffffff" stroke-width="1.5"></circle> </svg>
+<div><strong style="color: #007e3a; font-size: 1.1em;">Cortarse:</strong><br />Si tienen un único punto en común (rectas secantes).</div>
+</div>
+</div>
+</div>
+<!-- BLOQUE 2: Misma Dirección -->
+<div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<div style="background-color: #007e3a; color: white; padding: 12px 15px; font-weight: bold; font-size: 1.1em; text-align: center;">Si tienen la MISMA dirección</div>
+<div style="padding: 20px; background-color: #ffffff;"><!-- Paralelas -->
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 25px;"><svg viewbox="0 0 100 100" width="70" height="70" style="flex-shrink: 0; background: #fafafa; border-radius: 8px; border: 1px solid #eee;"> <line x1="15" y1="35" x2="85" y2="35" stroke="#007e3a" stroke-width="4.5" stroke-linecap="round" transform="rotate(-20 50 50)"></line> <line x1="15" y1="65" x2="85" y2="65" stroke="#82b93c" stroke-width="4.5" stroke-linecap="round" transform="rotate(-20 50 50)"></line> </svg>
+<div><strong style="color: #007e3a; font-size: 1.1em;">Paralelas:</strong><br />Cuando no tienen ningún punto en común.</div>
+</div>
+<!-- Coincidentes -->
+<div style="display: flex; align-items: center; gap: 15px;"><svg viewbox="0 0 100 100" width="70" height="70" style="flex-shrink: 0; background: #fafafa; border-radius: 8px; border: 1px solid #eee;"> <!-- Recta base ancha --> <line x1="15" y1="50" x2="85" y2="50" stroke="#007e3a" stroke-width="7" stroke-linecap="round" transform="rotate(-20 50 50)"></line> <!-- Recta superpuesta a trazos --> <line x1="15" y1="50" x2="85" y2="50" stroke="#82b93c" stroke-width="3" stroke-dasharray="6,5" stroke-linecap="round" transform="rotate(-20 50 50)"></line> </svg>
+<div><strong style="color: #007e3a; font-size: 1.1em;">Coincidentes:</strong><br />Cuando todos los puntos de una pertenecen a la otra (son la misma recta).</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mvms1f0b-8ma0u1ccf" class="box no-header sin-titulo">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/iconogeogebra.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0b-fjksiq8p0" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0b-fjksiq8p0&quot;}">
+<div class="exe-text-template">
+    <p style="text-align: justify;">En esta escena puedes ver lo que ocurre cuando dos rectas (de color rojo una y negro la otra) son paralelas, en las ecuaciones vectoriales de las rectas que aparecen en la parte superior izquierda podrás apreciar como sus vectores directores son iguales, si bien los vectores de posición son diferentes.</p>
+<ul>
+<li style="text-align: justify;">
+<p>Si pruebas a mover un punto para unirlo con otro, reduciendo los cuatro puntos azules iniciales a tres verás la situación que se da cuando dos rectas se cruzan.</p>
+</li>
+<li style="text-align: justify;">
+<p>Si unes dos de ellos harás que las dos rectas se corten.</p>
+</li>
+<li style="text-align: justify;">
+<p>Por último si unes los cuatro puntos en uno solo en el origen de coordenadas harás que las dos rectas coincidan.</p>
+</li>
+</ul>
+<p><iframe width="639" height="551" style="border: 0px; display: block; margin-left: auto; margin-right: auto;" scrolling="no" src="https://www.geogebra.org/material/iframe/id/WpM7W9jN/width/639/height/551/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false"></iframe></p>
+</div>
+</div>
+</div>
+</article><article id="block-mvnu9ehk-uw0imnv2u" class="box nota-azul">
+<header class="box-head no-icon">
+<h1 class="box-title">Texto</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1792933411735-b70z75ttl" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1792933411735-b70z75ttl&quot;}">
+<div class="exe-text-template">
+    <p style="text-align: justify;"><br /></p>
+<p style="text-align: justify;">Ejemplos de las cuatro posiciones podemos encontrarlos con facilidad en nuestro entorno cotidiano. Imaginemos que vamos circulando por una carretera; si de pronto nos encontramos con otra carretera con la que hay un cruce, con los correspondientes <em>Stop </em>o <em>Ceda el paso</em>, nos encontramos con dos rectas que se cortan. Precisamente el punto de corte es el cruce. Si por el contrario la carretera cruza a distinto nivel, como pasa por ejemplo en las autovías, tenemos dos rectas que se cruzan.</p>
+<p style="text-align: justify;"> Si circulamos por una autovía, nosotros marchamos por un carril y los que van en dirección contraria por otro paralelo, estaríamos en el caso de rectas paralelas. Mientras que si circulamos por una carretera comarcal, los dos sentidos circulan por la misma carretera, estaríamos en el caso de dos líneas coincidentes.</p>
+<p><img src="../content/resources/carretera.jpg" alt="Carretera" width="300" height="225" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+</div>
+</div>
+</div>
+</article><article id="block-mvnulhyu-y26rp813g" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_udl_eng_aprenderaprender.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Averiguar la posición relativa de dos rectas</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1792933976117-jkadtf6ak" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1792933976117-jkadtf6ak&quot;}">
+<div class="exe-text-template">
+    <style>
+    /* Diseño de pestañas: Contraste extremo para la pestaña activa */
+    .exe-tabs .fx-tabs {
+        margin-bottom: 20px !important;
+        border-bottom: none !important;
+        display: flex !important;
+        gap: 12px !important;
+        flex-wrap: wrap !important;
+    }
+    
+    /* Estado INACTIVO (por defecto) */
+    .exe-tabs .fx-tabs a {
+        background-color: #ffffff !important;
+        color: #15803d !important;
+        border: 2px solid #15803d !important;
+        border-radius: 6px !important;
+        font-weight: bold !important;
+        font-size: 1.05em !important;
+        padding: 12px 20px !important;
+        opacity: 0.5 !important;
+        transition: all 0.3s ease !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+    }
+    
+    .exe-tabs .fx-tabs a:hover {
+        opacity: 0.8 !important;
+        background-color: #f0fdf4 !important;
+    }
+    
+    /* Estado ACTIVO (Garantizado) */
+    .exe-tabs .fx-tabs a.active, 
+    .exe-tabs .fx-tabs a:focus,
+    .exe-tabs .fx-tabs .active a {
+        background-color: #15803d !important;
+        color: #ffffff !important;
+        opacity: 1 !important;
+        box-shadow: 0 4px 12px rgba(21,128,61,0.4) !important;
+        transform: scale(1.03) !important;
+        border: 2px solid #15803d !important;
+    }
+</style>
+<div class="exe-fx exe-tabs" style="font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6;">
+<h2>MÉTODO 1: Utilizando Vectores</h2>
+<div style="padding: 25px; border: 3px solid #15803d; border-radius: 8px; background-color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+<p>Tenemos dos rectas definidas por sus elementos: un punto y un vector director:</p>
+<p style="text-align: center;">\( r \equiv P(p_1, p_2, p_3) \text{ y } \vec{v}=(v_1, v_2, v_3) \)<br />\( s \equiv Q(q_1, q_2, q_3) \text{ y } \vec{w}=(w_1, w_2, w_3) \)</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+<div style="background-color: #f8fafc; border-left: 4px solid #166534; padding: 15px;">
+<h4 style="color: #166534; margin-top: 0;">1. Tienen distinta dirección</h4>
+<p>Ocurre si \( \vec{v} \) y \( \vec{w} \) <strong>no son proporcionales</strong> (linealmente independientes). Estudiamos el determinante formado por \( \vec{v} \), \( \vec{w} \) y \( \vec{PQ} \):</p>
+<ul style="padding-left: 20px;">
+<li>Si es distinto de cero (independientes): Las rectas <strong>se cruzan</strong>.</li>
+<li>Si es cero (dependientes): Las rectas <strong>se cortan en un punto</strong>.</li>
+</ul>
+</div>
+<div style="background-color: #f8fafc; border-left: 4px solid #15803d; padding: 15px;">
+<h4 style="color: #15803d; margin-top: 0;">2. Tienen la misma dirección</h4>
+<p>Ocurre si \( \vec{v} \) y \( \vec{w} \) <strong>son proporcionales</strong> (linealmente dependientes). Basta comprobar si el punto \( P \) de la recta \( r \) pertenece a la recta \( s \):</p>
+<ul style="padding-left: 20px;">
+<li>Si \( P \) no pertenece a \( s \): Las rectas son <strong>paralelas</strong>.</li>
+<li>Si \( P \) pertenece a \( s \): Las rectas son <strong>coincidentes</strong>.</li>
+</ul>
+</div>
+</div>
+</div>
+<h2>MÉTODO 2: Resolviendo el Sistema</h2>
+<div style="padding: 25px; border: 3px solid #15803d; border-radius: 8px; background-color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+<p>Escribimos las dos rectas en su forma paramétrica:</p>
+<p style="text-align: center;">\( r \equiv \begin{cases} x = p_1 + t v_1 \\ y = p_2 + t v_2 \\ z = p_3 + t v_3 \end{cases} \qquad s \equiv \begin{cases} x = q_1 + s w_1 \\ y = q_2 + s w_2 \\ z = q_3 + s w_3 \end{cases} \)</p>
+<p>A continuación, igualamos los valores de \( x, y, z \) de ambas expresiones y organizamos el sistema dejando las incógnitas (\( t \) y \( s \)) a un lado y los términos independientes al otro:</p>
+<p style="text-align: center;">\( \begin{cases} p_1 + t v_1 = q_1 + s w_1 \\ p_2 + t v_2 = q_2 + s w_2 \\ p_3 + t v_3 = q_3 + s w_3 \end{cases} \implies \begin{cases} t v_1 - s w_1 = q_1 - p_1 \\ t v_2 - s w_2 = q_2 - p_2 \\ t v_3 - s w_3 = q_3 - p_3 \end{cases} \)</p>
+<p>A partir de este sistema, estudiamos la matriz de los coeficientes (\( Mc \)) y la matriz ampliada (\( Ma \)):</p>
+<p style="text-align: center;">\( Mc = \begin{pmatrix} v_1 &amp; w_1 \\ v_2 &amp; w_2 \\ v_3 &amp; w_3 \end{pmatrix} \qquad Ma = \begin{pmatrix} v_1 &amp; w_1 &amp; | &amp; q_1 - p_1 \\ v_2 &amp; w_2 &amp; | &amp; q_2 - p_2 \\ v_3 &amp; w_3 &amp; | &amp; q_3 - p_3 \end{pmatrix} \)</p>
+<p style="font-size: 0.9em; color: #666; text-align: center;"><em>(Nota: Utilizar \( w_i \) o \( -w_i \) en las matrices no altera el cálculo de sus rangos).</em></p>
+<p>Finalmente, aplicamos el Teorema de Rouché-Capelli a las matrices resultantes:</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+<div style="background-color: #f8fafc; border-left: 4px solid #166534; padding: 15px;">
+<h4 style="color: #166534; margin-top: 0;">1. Si rango(\(Mc\)) = 2</h4>
+<p style="margin-top: 0; font-size: 0.9em;">(Rectas con distinta dirección)</p>
+<ul style="padding-left: 20px;">
+<li><strong>rango(\(Ma\)) = 3:</strong> Sistema incompatible. No hay solución y las rectas <strong>se cruzan</strong>.</li>
+<li><strong>rango(\(Ma\)) = 2:</strong> Sistema compatible determinado. Hay una única solución y las rectas <strong>se cortan en un punto</strong>.</li>
+</ul>
+</div>
+<div style="background-color: #f8fafc; border-left: 4px solid #15803d; padding: 15px;">
+<h4 style="color: #15803d; margin-top: 0;">2. Si rango(\(Mc\)) = 1</h4>
+<p style="margin-top: 0; font-size: 0.9em;">(Rectas con la misma dirección)</p>
+<ul style="padding-left: 20px;">
+<li><strong>rango(\(Ma\)) = 2:</strong> Sistema incompatible. No hay solución y las rectas son <strong>paralelas</strong>.</li>
+<li><strong>rango(\(Ma\)) = 1:</strong> Sistema compatible indeterminado. Hay infinitas soluciones y las rectas son <strong>coincidentes</strong>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mvnvsp30-chbry1z5q" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1792935991548-xmqo2qt0r" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1792935991548-xmqo2qt0r&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Estudia las posiciones relativas de los siguientes pares de rectas. Si alguna de ellas se cortan en un punto, halla dicho punto.</p>
+<p><br /></p>
+<p>a) \(r \equiv \dfrac{x-1}{6} = \dfrac{y+2}{-9} = \dfrac{z}{-3}\)  y  \(r' \equiv \dfrac{x+1}{-4} = \dfrac{y-1}{6} = \dfrac{z+1}{2}\)</p>
+<p><br /></p>
+<p>b) \(r \equiv \begin{cases} x = 1+3t \\ y = -2t \\ z = 1+t \end{cases}\)  y  \(r' \equiv \dfrac{x-1}{1} = \dfrac{y-2}{2} = \dfrac{z}{-1}\)</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p style="font-size: 1.05em; margin-bottom: 25px;">Vamos a resolver cada uno de los apartados por uno de los métodos.</p>
+<!-- Solución Apartado a -->
+<div style="margin-bottom: 40px;">
+<h4 style="color: #007e3a; border-bottom: 2px solid #eee; padding-bottom: 8px;"><span style="color: #0066cc;">Apartado a)</span></h4>
+<p>Tenemos la recta \(r\) que pasa por \(P(1,-2,0)\) y tiene de vector dirección \(\vec{v}=(6,-9,-3)\) y la recta \(r'\) pasando por \(Q(-1,1,-1)\) y con dirección \(\vec{w}=(-4,6,2)\). Lo primero es ver si sus vectores dirección son proporcionales, para ello los dividimos término a término.</p>
+<p>Como se verifica que son iguales las tres fracciones \(\dfrac{6}{-4} = \dfrac{-9}{6} = \dfrac{-3}{2}\) las dos rectas tienen la misma dirección. Basta ver si uno de los puntos de una de las rectas pertenece a la otra.</p>
+<p>Tomamos el punto \(P\) y probamos si cumple la ecuación de la recta \(r'\).</p>
+<p>Como no se cumplen las dos igualdades, \(\dfrac{1+1}{-4} = \dfrac{-2-1}{6} \neq \dfrac{0+1}{2}\), el punto no pertenece a la recta y por tanto <strong>las rectas son paralelas</strong>.</p>
+</div>
+<!-- Solución Apartado b -->
+<div>
+<h4 style="color: #007e3a; border-bottom: 2px solid #eee; padding-bottom: 8px;"><span style="color: #0066cc;">Apartado b)</span></h4>
+<p>Ahora escribimos las dos rectas en paramétricas (<em>recuerda utilizar siempre distintos parámetros</em>) e igualamos las variables:</p>
+<p style="text-align: center; margin: 20px 0;">\[r \equiv \begin{cases} x = 1+3t \\ y = -2t \\ z = 1+t \end{cases} \qquad r' \equiv \begin{cases} x = 1+s \\ y = 2+2s \\ z = -s \end{cases} \implies \begin{cases} 1+3t = 1+s \\ -2t = 2+2s \\ 1+t = -s \end{cases}\]</p>
+<p>Reordenamos el sistema \(\begin{cases} 3t-s = 0 \\ -2t-2s = 2 \\ t+s = -1 \end{cases}\) y estudiamos los rangos de \(M_a = \left( \begin{array}{rrr} 3 &amp; -1 &amp; 0 \\ -2 &amp; -2 &amp; 2 \\ 1 &amp; 1 &amp; -1 \end{array} \right)\).</p>
+<p>A simple vista vemos que las dos primeras columnas no son proporcionales, luego el \(\text{rango}(M_c)=2\). Las dos rectas tienen distinta dirección. Estudiamos el determinante de la matriz ampliada para ver el rango de la matriz ampliada.</p>
+<p style="text-align: center; margin: 20px 0;">\[\left| \begin{array}{rrr} 3 &amp; -1 &amp; 0 \\ -2 &amp; -2 &amp; 2 \\ 1 &amp; 1 &amp; -1 \end{array} \right| = 6+0-2-0+2-6=0 \qquad \text{Luego rango}(M_a)=2.\]</p>
+<p>El sistema es <strong>Compatible Determinado</strong>, tiene una única solución que es el punto donde se cortan las dos rectas. Para hallarlo resolvemos el sistema. Podemos elegir la primera y tercera filas (la segunda y la tercera son proporcionales) y tenemos el sistema \(\begin{cases} 3t-s = 0 \\ t+s = -1 \end{cases}\) sumamos las ecuaciones y obtenemos \(4t = -1\), luego \(t = \dfrac{-1}{4}\), basta sustituir ese valor en la recta \(r\) y obtenemos el punto de corte:</p>
+<!-- Resultado final destacado -->
+<div style="background-color: #edfcfc; padding: 15px; border-radius: 6px; border-left: 4px solid #000dff; text-align: center; font-size: 1.15em; margin: 20px 0;">\[P_c = \left(1-\dfrac{3}{4}, \dfrac{2}{4}, 1-\dfrac{1}{4}\right) = \mathbf{\left(\dfrac{1}{4}, \dfrac{1}{2}, \dfrac{3}{4}\right)}\]</div>
+<p style="margin-top: 25px; color: #666; font-style: italic; background-color: #fafafa; padding: 10px; border-radius: 4px;">Como podemos observar, el primer método es más directo para hallar la posición relativa, pero si las rectas se cortan, debemos plantear el sistema como en el segundo método para hallar el punto de corte, por lo que así ya aprovechamos los cálculos.</p>
+</div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvms1f0c-ue8f4xgkq" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0c-inzzcz0ij" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0c-inzzcz0ij&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Estudia la posición relativa de las siguientes pares de rectas.</p>
+<p>a) \(r \equiv \dfrac{x+1}{4} = \dfrac{y+2}{3} = \dfrac{z-2}{-1}\) y \(r' \equiv \dfrac{x-1}{-1} = \dfrac{y-2}{1} = \dfrac{z+3}{-2}\)</p>
+<p>b) \(r \equiv (2,3,1)+t(-1,2,1)\) y \(r' \equiv \begin{cases} x = 3+2s \\ y = 1-4s \\ z = -2s \end{cases}\)</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p>a) Se cruzan.</p>
+<p>b) Son coincidentes.</p></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvms1f0c-cradr63g9" class="box caja-naranja">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_sabermas.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Radiación de rectas</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0c-6dmbf38j6" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0c-6dmbf38j6&quot;}">
+<div class="exe-text-template">
+    <p><br /></p>
+<p><img src="../content/resources/52616469616369c3b36e5f64655f726563746173.jpg" alt="Radiación de rectas" width="25%" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><br /></p>
+<p>Si tomamos un punto cualquiera del espacio y consideramos todas las rectas que pasan por ese punto, al conjunto de rectas que se forman se le llama <span style="color: #e67e23;"><b>Radiación de Rectas</b>.</span></p>
+<p>Si tenemos el punto \(P(p_1,p_2,p_3)\), que sería el <strong><span style="color: #e67e23;">vértice</span></strong> de esa radiación, la ecuación de este lugar geométrico sería: \[\dfrac{x-p_1}{a}=\dfrac{y-p_2}{b}=\dfrac{z-p_3}{c}\]</p>
+<p>Para cada valor que le demos a la terna \((a,b,c)\) obtendremos una recta distinta perteneciente a la radiación.</p>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/13-ecuacion-implicita-de-la-recta.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/2-el-plano-en-el-espacio.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

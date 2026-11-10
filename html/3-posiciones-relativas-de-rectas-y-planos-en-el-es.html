@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvms1f07-p4tli9qcw">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3. Posiciones relativas de rectas y planos en el espacio | Espacio afín y euclídeo</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Curso 2º - Enseñanza Bachillerato
+Nombre asignatura/materia: Matemáticas II">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvms1f07-p4tli9qcw" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Espacio afín y euclídeo: Ecuaciones de rectas y planos. Posiciones relativas</a>
+</li>
+<li> <a href="../html/1-la-recta-en-el-espacio.html" class="daddy">1. La recta en el espacio</a>
+<ul class="other-section">
+<li> <a href="../html/11-ecuacion-vectorial-de-la-recta.html" class="no-ch">1.1. Ecuación vectorial de la recta</a>
+</li>
+<li> <a href="../html/12-ecuacion-parametrica-y-continua-de-la-recta.html" class="no-ch">1.2. Ecuación paramétrica y continua de la recta</a>
+</li>
+<li> <a href="../html/13-ecuacion-implicita-de-la-recta.html" class="no-ch">1.3. Ecuación implícita de la recta</a>
+</li>
+<li> <a href="../html/14-posiciones-relativas-de-rectas-en-el-espacio.html" class="no-ch">1.4. Posiciones relativas de rectas en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/2-el-plano-en-el-espacio.html" class="daddy">2. El plano en el espacio</a>
+<ul class="other-section">
+<li> <a href="../html/21-ecuacion-vectorial-y-parametrica-del-plano.html" class="no-ch">2.1.  Ecuación vectorial y paramétrica del plano</a>
+</li>
+<li> <a href="../html/22-ecuacion-implicita-del-plano.html" class="no-ch">2.2. Ecuación implícita del plano</a>
+</li>
+<li> <a href="../html/23-posiciones-relativas-de-planos-en-el-espacio.html" class="no-ch">2.3. Posiciones relativas de planos en el espacio</a>
+</li>
+<li> <a href="../html/24-posiciones-relativas-de-tres-planos-en-el-espac.html" class="no-ch">2.4. Posiciones relativas de tres planos en el espacio</a>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/3-posiciones-relativas-de-rectas-y-planos-en-el-es.html" class="active no-ch">3. Posiciones relativas de rectas y planos en el espacio</a>
+</li>
+<li> <a href="../html/ejercicios.html" class="no-ch">Ejercicios</a>
+</li>
+<li> <a href="../html/calculadora.html" class="no-ch">Calculadora</a>
+</li>
+<li> <a href="../html/resumen.html" class="no-ch">Resumen</a>
+</li>
+</ul>
+</nav><main id="page-mvms1f07-p4tli9qcw" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Espacio afín y euclídeo</p>
+<p class="package-subtitle">Ecuaciones de rectas y planos. Posiciones relativas</p></div>
+<div class="page-header"><h1 class="page-title">3. Posiciones relativas de rectas y planos en el espacio</h1></div>
+</header><div id="page-content-page-mvms1f07-p4tli9qcw" class="page-content">
+<article id="block-mvms1f0f-asjvxom12" class="box no-header sin-titulo">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0f-dl68jz5zl" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0f-dl68jz5zl&quot;}">
+<div class="exe-text-template">
+    <p><img src="../content/resources/don-quijote2.jpg" width="30%" alt="" style="display: block; margin-left: auto; margin-right: auto;" />Ya hemos visto las posiciones relativas de dos elementos del espacio cuando son iguales. ¿Qué pasará si elegimos uno de cada tipo? Pues que las posiciones relativas serán las mismas que en el caso del plano. Imagina un lanzador de jabalina. Si hace bien el tiro, al terminar la jabalina quedará clavada sobre el suelo, si se equivoca la jabalina quedará sobre el plano del suelo y cuando la ha lanzado, habrá momentos en que la jabalina esté paralela al suelo. <a href="https://youtu.be/4KowAWNDFI8?si=DUkOj-XkhD70k-0u" title=""><img src="../content/resources/yutube.png" width="50" height="51" alt="" /></a></p>
+</div>
+</div>
+</div>
+</article><article id="block-mvpk943y-rxo7pnaow" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_definicion.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Posición relativa entre una recta y un plano</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793037534477-oqqre7aia" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793037534477-oqqre7aia&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6;">
+<div style="background-color: #f0fdf4; border-left: 5px solid #15803d; padding: 15px; margin-bottom: 20px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+<p style="margin: 0; font-size: 1.1em;">Las posibles posiciones relativas de una recta y un plano en el espacio son las siguientes:</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;"><!-- CASO A: Se cortan en un punto -->
+<div style="border: 1px solid #dcfce7; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); background-color: #ffffff;">
+<div style="background-color: #166534; color: white; padding: 12px 15px; font-weight: bold; font-size: 1.1em; text-align: center;">a) Se cortan en un punto</div>
+<div style="padding: 20px;"><svg viewbox="0 0 100 100" width="100%" height="120" style="display: block; margin: 0 auto 15px auto; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;"> <!-- Recta (parte posterior/oculta) --> <line x1="50" y1="60" x2="35" y2="97.5" stroke="#1e293b" stroke-width="2.5" stroke-dasharray="3,3" opacity="0.5"></line> <!-- Plano redimensionado --> <polygon points="5,75 35,45 95,45 65,75" fill="#4ade80" opacity="0.8" stroke="#15803d" stroke-width="1.5"></polygon> <!-- Recta (parte frontal) --> <line x1="70" y1="10" x2="50" y2="60" stroke="#1e293b" stroke-width="2.5"></line> <!-- Punto de corte --> <circle cx="50" cy="60" r="3.5" fill="#e63946" stroke="#ffffff" stroke-width="1.5"></circle> </svg>
+<p style="margin: 0px; font-size: 0.95em; text-align: justify;"><strong>La recta y el plano se cortan en un punto.</strong> Cuando la dirección de la recta es linealmente independiente de las dos direcciones del plano.</p>
+</div>
+</div>
+<!-- CASO B: Paralela al plano -->
+<div style="border: 1px solid #dcfce7; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); background-color: #ffffff;">
+<div style="background-color: #15803d; color: white; padding: 12px 15px; font-weight: bold; font-size: 1.1em; text-align: center;">b) Es paralela al plano</div>
+<div style="padding: 20px;"><svg viewbox="0 0 100 100" width="100%" height="120" style="display: block; margin: 0 auto 15px auto; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;"> <!-- Plano redimensionado --> <polygon points="5,75 35,45 95,45 65,75" fill="#4ade80" opacity="0.8" stroke="#15803d" stroke-width="1.5"></polygon> <!-- Recta paralela --> <line x1="15" y1="20" x2="85" y2="20" stroke="#1e293b" stroke-width="2.5"></line> <!-- Proyección visual --> <line x1="15" y1="20" x2="15" y2="65" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2,2"></line> <line x1="85" y1="20" x2="85" y2="65" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2,2"></line> </svg>
+<p style="margin: 0px; font-size: 0.95em; text-align: justify;"><strong>La recta es paralela al plano.</strong> Cuando la dirección de la recta es linealmente dependiente de las dos direcciones del plano y no hay ningún punto de la recta en el plano.</p>
+</div>
+</div>
+<!-- CASO C: Contenida en el plano -->
+<div style="border: 1px solid #dcfce7; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); background-color: #ffffff;">
+<div style="background-color: #22c55e; color: white; padding: 12px 15px; font-weight: bold; font-size: 1.1em; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">c) Está contenida en el plano</div>
+<div style="padding: 20px;"><svg viewbox="0 0 100 100" width="100%" height="120" style="display: block; margin: 0 auto 15px auto; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;"> <!-- Plano redimensionado --> <polygon points="5,75 35,45 95,45 65,75" fill="#4ade80" opacity="0.8" stroke="#15803d" stroke-width="1.5"></polygon> <!-- Recta contenida --> <line x1="20" y1="60" x2="80" y2="60" stroke="#1e293b" stroke-width="3"></line> <circle cx="35" cy="60" r="2.5" fill="#1e293b"></circle> <circle cx="65" cy="60" r="2.5" fill="#1e293b"></circle> </svg>
+<p style="margin: 0px; font-size: 0.95em; text-align: justify;"><strong>La recta está contenida en el plano.</strong> Cuando la dirección de la recta es linealmente dependiente de las dos direcciones del plano y cualquier punto de la recta está en el plano.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mvpkpfdf-k14h922b5" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_udl_eng_aprenderaprender.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Estudio algebraico de la posición relativa de una recta y un plano</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793038295570-gu5fjqls9" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793038295570-gu5fjqls9&quot;}">
+<div class="exe-text-template">
+    <p style="margin-bottom: 15px; color: #1e293b;">Para estudiar algebraicamente la posición relativa de una recta y un plano tomamos la ecuación general del plano y la paramétrica de la recta:</p>
+<div style="background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 15px; margin-bottom: 20px; text-align: center; border-radius: 0 4px 4px 0;">
+<p style="margin: 0 0 10px 0;">\( \alpha \equiv Ax + By + Cz + D = 0 \)</p>
+<p style="margin: 0;">\( r \equiv \begin{cases} x = p_1 + t \cdot v_1 \\ y = p_2 + t \cdot v_2 \\ z = p_3 + t \cdot v_3 \end{cases} \)</p>
+</div>
+<p style="margin-bottom: 15px; color: #1e293b;">Basta sustituir las expresiones de la recta en el plano y obtenemos una ecuación con una incógnita \(t\).</p>
+<p style="text-align: center; margin-bottom: 15px;">\( A(p_1 + t \cdot v_1) + B(p_2 + t \cdot v_2) + C(p_3 + t \cdot v_3) + D = 0 \)</p>
+<p style="margin-bottom: 15px; color: #1e293b;">Operamos en la expresión y obtenemos:</p>
+<p style="text-align: center; margin-bottom: 15px;">\( (A v_1 + B v_2 + C v_3) \cdot t + (A p_1 + B p_2 + C p_3 + D) = 0 \)</p>
+<p style="margin-bottom: 15px; color: #1e293b;">Los dos paréntesis son números, llamémoslos \(f\) y \(g\). Estudiamos la ecuación resultante <strong>\[\pmb{f \cdot t + g = 0}\]</strong></p>
+<ol style="color: #1e293b; line-height: 1.6; padding-left: 20px;">
+<li style="margin-bottom: 10px;">Si <strong>\(\pmb{f}\) es distinto de cero</strong>, se puede despejar la \(t\) y existe una única solución. La recta corta al plano en un punto.</li>
+<li style="margin-bottom: 10px;">Si \(\pmb{f}\)<strong> es cero, pero \(\pmb{g}\) no</strong>, obtendríamos la ecuación \(0 \cdot t + g = 0\) con \(g\) no nulo. Esta ecuación es imposible, por lo que no hay solución. La recta es paralela al plano.</li>
+<li>Si \(\pmb{f}\)<strong> y \(\pmb{g}\) son ambos cero</strong>, nos queda la ecuación \(0 \cdot t + 0 = 0\) que se verifica para todo valor de \(t\), luego todos los puntos de la recta están en el plano y, por tanto, la recta está incluida en el plano.</li>
+</ol>
+</div>
+</div>
+</div>
+</article><article id="block-mvpkz10j-ojwfqrq1v" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_udl_eng_aprenderaprender.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Estudio de la posición relativa de una recta y un plano usando matrices</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793038743523-2utrxx4y6" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793038743523-2utrxx4y6&quot;}">
+<div class="exe-text-template">
+    <h3 style="color: #166534; border-bottom: 2px solid #bbf7d0; padding-bottom: 8px; margin-top: 0; font-size: 1.25rem;">Posiciones relativas de una recta y un plano</h3>
+<p style="margin-bottom: 15px; color: #1e293b;">Al estudiar un sistema formado por la ecuación implícita de un plano \( \pi \) y las dos ecuaciones implícitas de una recta \( r \) (que son intersección de dos planos):</p>
+<div style="background-color: #f0fdf4; border-left: 4px solid #16a34a; padding: 15px; margin-bottom: 20px; border-radius: 0 4px 4px 0;">\[ \pi \equiv Ax + By + Cz + D = 0 \quad \quad r \equiv \begin{cases} A_1x + B_1y + C_1z + D_1 = 0 \\ A_2x + B_2y + C_2z + D_2 = 0 \end{cases} \]</div>
+<p style="margin-bottom: 15px; color: #1e293b;">Obtenemos una matriz de coeficientes \( M_c \) (de dimensión 3x3) y una matriz ampliada \( M_a \) (3x4):</p>
+<div style="text-align: center; margin-bottom: 20px; overflow-x: auto;">\[ M_c = \begin{pmatrix} A_1 &amp; B_1 &amp; C_1 \\ A_2 &amp; B_2 &amp; C_2 \\ A &amp; B &amp; C \end{pmatrix} \quad \quad M_a = \begin{pmatrix} A_1 &amp; B_1 &amp; C_1 &amp; \big| &amp; -D_1 \\ A_2 &amp; B_2 &amp; C_2 &amp; \big| &amp; -D_2 \\ A &amp; B &amp; C &amp; \big| &amp; -D \end{pmatrix} \]</div>
+<p style="margin-bottom: 20px; color: #1e293b;">Según el Teorema de Rouché-Fröbenius, existen tres casos posibles:</p>
+<!-- Caso 1 -->
+<div style="border: 1px solid #dcfce7; border-radius: 6px; padding: 15px; background-color: #ffffff; margin-bottom: 15px;">
+<h4 style="margin: 0 0 8px 0; color: #14532d; font-size: 1.1rem;">1. Secantes: La recta corta al plano en un punto</h4>
+<p style="margin: 0; color: #1e293b;">Si <strong>\( \text{rg}(M_c) = 3 \)</strong> y <strong>\( \text{rg}(M_a) = 3 \)</strong>. El sistema es Compatible Determinado, lo que significa que existe una única solución (las coordenadas del punto de intersección).</p>
+</div>
+<!-- Caso 2 -->
+<div style="border: 1px solid #dcfce7; border-radius: 6px; padding: 15px; background-color: #ffffff; margin-bottom: 15px;">
+<h4 style="margin: 0 0 8px 0; color: #14532d; font-size: 1.1rem;">2. Paralelos: La recta es paralela al plano</h4>
+<p style="margin: 0; color: #1e293b;">Si <strong>\( \text{rg}(M_c) = 2 \)</strong> y <strong>\( \text{rg}(M_a) = 3 \)</strong>. El sistema es Incompatible, por lo que no existe solución; la recta y el plano no tienen ningún punto en común.</p>
+</div>
+<!-- Caso 3 -->
+<div style="border: 1px solid #dcfce7; border-radius: 6px; padding: 15px; background-color: #ffffff; margin-bottom: 15px;">
+<h4 style="margin: 0 0 8px 0; color: #14532d; font-size: 1.1rem;">3. Contenida: La recta está incluida en el plano</h4>
+<p style="margin: 0; color: #1e293b;">Si <strong>\( \text{rg}(M_c) = 2 \)</strong> y <strong>\( \text{rg}(M_a) = 2 \)</strong>. El sistema es Compatible Indeterminado (con infinitas soluciones dependientes de un parámetro), lo que indica que todos los puntos de la recta pertenecen también al plano.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mvpligxx-yd16rkhzc" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793039650628-anz14qbv3" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793039650628-anz14qbv3&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Estudia la posición relativa de la recta \(r \equiv (x,y,z) = (-2,1,-1)+t \cdot (1,-1,2)\) y del plano \(\alpha \equiv 3x+2y+5z-2=0\).</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p style="color: #1e293b;">Escribimos la recta en su forma paramétrica y la sustituimos en el plano.</p>
+<p style="text-align: center; color: #1e293b; margin-bottom: 15px;">\[ r \equiv \begin{cases} x = -2+t \\ y = 1-t \\ z = -1+2t \end{cases} \]\[ 3(-2+t) + 2(1-t) + 5(-1+2t) - 2 = 0 \]</p>
+<p style="color: #1e293b;">Y ahora desarrollamos y simplificamos:</p>
+<p style="text-align: center; color: #1e293b; margin-bottom: 15px;">\[ -6 + 3t + 2 - 2t - 5 + 10t - 2 = 0 \quad \rightarrow \quad 11t - 11 = 0 \]</p>
+<p style="color: #1e293b;">Cuya solución es <strong>\(t = 1\)</strong>.</p>
+<div style="background-color: #e3f2fd; border: 2px solid #2196f3; padding: 15px; border-radius: 8px; font-size: 1.1em; text-align: center; color: #166534; margin-top: 20px;"><span style="color: #0066cc;">Por tanto la recta y el plano se cortan en el punto <strong>\(P(-2+1, 1-1, -1+2) = (-1,0,1)\)</strong>.</span></div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvpltuc5-yindiheb8" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793040181205-p16xg2wna" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793040181205-p16xg2wna&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Halla las posiciones relativas de los siguientes pares de elementos.</p>
+<ol style="color: #1e293b; font-size: 1.05em; line-height: 2; margin-bottom: 25px;">
+<li>\( \alpha \equiv x - 2y + 3 = 0 \) y \( r \equiv (x,y,z) = (1,1,1) + t \cdot (2,1,-1) \)</li>
+<li>\( \alpha \equiv 2x + y - z - 1 = 0 \) y \( r \equiv (x,y,z) = (1,1,2) + t \cdot (1,-1,1) \)</li>
+<li>\( \alpha \equiv x - y + z - 2 = 0 \) y \( r \equiv (x,y,z) = (3,-3,-4) + t \cdot (1,2,-3) \)</li>
+</ol><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><ol style="color: #1e293b; font-size: 1.05em; line-height: 1.8;">
+<li style="margin-bottom: 8px;">La recta es paralela al plano.</li>
+<li style="margin-bottom: 8px;">La recta está incluida en el plano.</li>
+<li>La recta corta al plano en el punto \( (3,-3,-4) \).</li>
+</ol></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvms1f0g-b5hamz601" class="box caja-roja">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/bidio.gif" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Vídeos</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvms1f0g-5ykd6y7qp" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvms1f0g-5ykd6y7qp&quot;}">
+<div class="exe-text-template">
+    <p>En los siguientes videos se explican otros procedimientos para estudiar la posición relativa de rectas y planos en el espacio:</p>
+<p style="text-align: center;"><a href="https://youtu.be/7KxLR9VGlB8?si=aFOqMf9b4_-r6aHE" title=""><img src="../content/resources/yutube.png" width="50" height="51" alt="" /></a> <a href="https://youtu.be/RGIPFLqtIQg?si=WOOjZH89hVSbgXze" title=""><img src="../content/resources/yutube.png" width="50" height="51" alt="" /></a></p>
+<p><br /></p>
+<div style="text-align: center;"><br /></div>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/24-posiciones-relativas-de-tres-planos-en-el-espac.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/ejercicios.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
